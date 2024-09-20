@@ -46,7 +46,6 @@ body{
   font-size: 16px;
   font-weight: 700;
   color: #fff;
-  /*background-color: transparent;*/
 }
 
 .netflix--nav--logo img{
@@ -59,7 +58,6 @@ body{
   display: flex;
   align-items:center;
   justify-content: flex-end;
-
 }
 
 .menu--button,
@@ -129,7 +127,6 @@ body{
   color: white;
 }
 
-
 .menuBtnImg{
   width: 8px;
   height: 8px;
@@ -143,7 +140,6 @@ body{
   border-radius: 4px;
   margin: 0 5px 0 0;
 }
-
 
 .press--log{
   width:155px;
@@ -194,7 +190,6 @@ body{
   padding: 1.5em 2%;
   position: fixed;
   top:0;
-  /*left: 20%;*/
   right: 0;
   background-color: rgb(22, 22, 22);
   transform:translateX(100%);
@@ -230,26 +225,20 @@ body{
   outline: none;
 }
 
-
-
 .first--background{
   width: 100%;
-  /*height: 380px;*/
-  
   background-image: url('./img/media/streams-bg.png');
   background-size: contain;
   background-repeat:repeat-y;
   display: flex;
   align-items: center;
-  justify-content: center;
- 
+  justify-content: center; 
 }
 
 .media--research{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  /*width: 610px;*/
   max-width: 680px;
 }
 
@@ -306,7 +295,6 @@ body{
   justify-content: flex-start;
 }
 
-
 .btn--icon{
   width: 13px;
   height: 13px;
@@ -332,12 +320,10 @@ body{
 .nav--button:hover{
   cursor: pointer;
   background-color: rgb(68, 96, 207);
-
 }
 
 .movie{
-  width: 75px;
-  
+  width: 75px; 
 }
 
 .series{
@@ -380,13 +366,6 @@ body{
 /* visible slider */
 
 .choose--lang-visible{
-  /*position: fixed;
-  top: -450px;
-  right:0;
-  left: 0;
-  transition: top .5s;
-  width: 100%;
-  z-index: 100;*/
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -399,7 +378,6 @@ body{
   transform: translate(0%);
   transition: 10s ease-in-out;
 }
-
 
 .choose--lang-visible:hover{
   height: 400px;
@@ -430,7 +408,6 @@ body{
   cursor: pointer;
   background-color: #5c5c5c;
 }
-
 
 .exitImg,
 .exitCountry{
@@ -471,7 +448,6 @@ body{
 .languages--choosing{
   display: flex;
   flex-direction: column;
-  
 }
 
 .language-el{
@@ -521,8 +497,6 @@ body{
   right: 0;
   z-index: 90;
 }
-
-
 
 .country-select{
   width: 100%;
@@ -594,9 +568,6 @@ body{
   flex-direction:column;
   width: 392px;
   max-width: 392px;
-  /*position: absolute;
-  top: 0;
-  width: 100%;*/
 }
 
 .slider--country--selection-visible{
@@ -639,7 +610,6 @@ body{
 }
 
 .img--box{
-  /*display: flex;*/
   display: none;
   align-items: center;
   justify-content: center;
@@ -653,14 +623,11 @@ body{
   margin: 0 0 0 .8em;
 }
 
-
-
 .checkedImg{
   width: 16px;
   height: 16px;
   margin-right: .7em;
 }
-
 
 .country-option,
 .country-option-stats{
@@ -668,7 +635,6 @@ body{
   height: 40px;
   display: flex;
   align-items: center;
-  /*text-indent: 1em;*/
   font-weight: 300;
   transition: .3s ease;
 }
@@ -681,7 +647,6 @@ body{
     display: flex;
   }
 }
-
 
 .movies--container--block{
  width: 98%;
@@ -710,35 +675,13 @@ body{
   transition: .5s ease;
 }
 
-/*
-.movie--img:hover{
-  width: 280px;
-  height:auto;
-  position: relative;
-  width: 105%;
-  height: auto;
-  /*filter: drop-shadow(16px 16px 20px red) invert(75%);*//*
-  
-}*/
-
-
-
 .example{
-  /*min-width: 256px;*/
-  /*height: 359px;*/
   height: auto;
-  /*margin: 10px 10px 20px 10px;*/
   margin: 10px 5px 20px 5px;
   transition: all .3s ease-in-out; 
 }
 
 .example:hover { transform: scale(1.05); }
-
-
-/*.example:hover{
-  cursor: pointer;
-  margin: 10px 5px 20px 5px;
-}*/
 
 .explanation{
   font-size: 13px;
@@ -761,8 +704,7 @@ body{
   font-size: 24px;
   color: #fff;
   font-weight: 700;
-  text-indent: 1em;
-  
+  text-indent: 1em; 
 }
 
 .movies--row{
@@ -787,7 +729,6 @@ body{
 .article3
 {
   max-width: 556px;
-  /*width: 500px;*/
   min-width: 320px;
   height: 350px;
   margin: 1em;
@@ -801,7 +742,7 @@ body{
 }
 
 .article1{
-  background-image: /*linear-gradient(90deg, rgb(0,0, 0)0%, rgba (5, 5, 5, 0.67)44.01%, rgba(15, 15, 15, 0)100% ),*/ url('./img/movie/b.o.png');
+  background-image: url('./img/movie/b.o.png');
 }
 
 .article2{
@@ -966,36 +907,18 @@ footer{
   margin-left: 5px;
 }
 
-/*
-@media (max-width:750px ){
-  .movies--container{
-    display: flex;
-    flex-direction:column;
-    /*align-items: center;
-    justify-content:flex-start;
-    /* gap: 2em 1.7em; *//*
-  }
-
-  .example{
-    margin: 1em auto;
-  }
-}*/
-
 @media(max-width: 600px){
   .example{
     margin:  1em 7em;
    }
 
    .example:hover { transform: scale(1); }
-
 }
 
 @media (max-width:1214px){
   .movies--news{
     overflow: auto;
   }
-
-  
 }
 
  @media(max-width:767px){
