@@ -1,5 +1,5 @@
-/* nav */
-.nav{
+  /* nav */
+  .nav{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -422,5 +422,5 @@
     font-weight: 700;
     color: #fff;
   }
-
+  
   /* nav buttons - edn */
