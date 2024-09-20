@@ -1,5 +1,5 @@
 /* hamburger styling */
-
+  
 @media(max-width: 959px){
     .nav--container{
       justify-content:center;
@@ -180,6 +180,7 @@
     top:50px;
     left: 0;
     right: 0;
+    /*bottom:0;*/
     height: 100%;
   }
   
