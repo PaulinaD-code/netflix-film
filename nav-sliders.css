@@ -1,5 +1,5 @@
 /* sliders */
-
+  
 .choose--lang-hidden{
     display: none;
     background-color: #232323;
@@ -215,6 +215,9 @@
     flex-direction:column;
     width: 392px;
     max-width: 392px;
+    /*position: absolute;
+    top: 0;
+    width: 100%;*/
   }
   
   .slider--country--selection-visible{
@@ -257,6 +260,7 @@
   }
   
   .img--box{
+    /*display: flex;*/
     display: none;
     align-items: center;
     justify-content: center;
@@ -293,26 +297,4 @@
     .img--box{
       display: flex;
     }
-  }
-
-  .slider-in-country--selection{
-    display: none;
-    flex-direction:column;
-    width: 400px;
-    max-width: 400px;
-    font-size: 13px;
-    background-color: #232323;
-    margin:0;
-  }
-  
-  .slider-in-country--selection-visible{
-    display: flex;
-    flex-direction:column;
-    width: 400px;
-    max-width: 400px;
-    font-size: 13px;
-    background-color: #232323;
-    margin: 0;
-    position: absolute;
-    z-index: 100;
   }
