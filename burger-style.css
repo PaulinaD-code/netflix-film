@@ -1,0 +1,387 @@
+/* hamburger styling */
+
+@media(max-width: 959px){
+    .nav--container{
+      justify-content:center;
+      align-items: center;
+      position: relative;
+    }
+  
+    .netflix--nav--logo{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .menu--btn{
+      display: none;
+    }
+  
+  .burger-nav-heading{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu--btn{
+    display: none;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+  }
+   }
+  
+   @media(max-width:959px ){
+  
+    .menu--btn.active{
+      position: fixed;
+      display: flex;
+      width: 100%;
+      align-self: center;
+      justify-content:flex-start;
+      top:0;
+      left: 0;
+      right: 0;
+      height:100vh;
+      background-color: #232323; 
+      flex-direction: column;
+      padding: 1em;
+      box-sizing: border-box;
+      }
+  
+      .slider-btns{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1em 0;
+        border-bottom: .1em solid grey;
+      }
+  
+    .grid1,
+    .grid2{
+      border: .5px solid lightgray;
+      padding: .8em;
+      border-radius: 4px;
+      width: 7em;
+      width: 45%;
+    }
+  
+    .grid3,
+    .grid4{
+      width: 100%;
+      display:flex;
+      justify-content: space-between;
+      border-bottom: .1em solid grey;
+      padding: 2em;
+    }
+  
+    .grid5,
+    .grid6{
+      width: 100%;
+      margin: 1em 0;
+    }
+  
+    .menuBtnImg{
+      display:none;
+    }
+  
+    .main-site{
+      display: flex;
+      align-items:flex-start;
+      justify-content:flex-start;
+      color: #fff;
+      background-color: transparent;
+      border: none;
+      outline:none;
+      font-family: inherit;
+      width: 100%;
+      padding: 2em;
+      border-bottom: .1em solid grey;
+    }
+  
+    .burger-search{
+      display: flex;
+      position: absolute;
+      left: 0;
+    }
+  
+    .hamburger--btn{
+      display: flex;
+      position: absolute;
+      right: 1%;
+    }
+  
+    .search{
+      display:none;
+    }
+  
+    .press--log{
+      width: 100%;
+    }
+  
+    .buttons-n-nav{
+      flex-direction: column-reverse;
+      width: 90%;
+      margin: 1em auto;
+    }
+  
+    .buttons-n-nav.active{
+      margin: 110px auto 1em;
+    }
+  
+    .resources--container.active{
+      width:100%;
+      background-color:#232323; 
+    }
+  
+    .choose--lang-visible{
+      display: flex;
+      flex-direction: column;
+      height:100%;
+      top: 150px;
+      left:0;
+      right:0;
+      z-index: 100;
+      transform: translate(0%);
+      position: fixed;
+      left: 0;
+      right:0;
+      bottom:0;
+    }
+  
+    .choose--lang-visible.active{
+      display: flex;
+    }
+  
+    .question{
+    display: none;
+  }
+  
+  .question-hb{
+    display: flex;
+    padding:1em 0 ;
+    position: fixed;
+    top:20px;
+    left:0;
+    right: 0;
+    z-index: 2000;
+  }
+  
+  .question-hb.active{
+    display: flex;
+  }
+  
+  .slider--exit{
+    display: none;
+    overflow: scroll;
+  }
+  
+  .languages{
+    position: relative;
+    top:50px;
+    left: 0;
+    right: 0;
+    height: 100%;
+  }
+  
+  .languages--subcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #161616;
+    margin: 0 auto;
+    position: absolute;
+    top:30px;
+    height:100%;
+    overflow: scroll;
+  }
+  
+  .language-el{
+    padding: 14px 20px 14px;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .1s ease;
+  }
+  
+  .left-side,
+  .center-placed,
+  .right-side{
+    width: 100%;
+  }
+  
+  .slider-country-visible{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 200;
+  }
+  
+  .question-country{
+    padding: 1em 0 0 0;
+    position:fixed;
+    display: none;
+    top:150px;
+    left: 0;
+    right: 0;
+  }
+  
+  .question-country.active{
+    display: flex;
+  }
+  
+  .country--selection{
+    display: none;
+  }
+    
+  .country-select{
+    background-color: #232323;
+    background-image: none;
+    padding:0; 
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.7;
+    position: fixed;
+    top:210px;
+    bottom:0;
+    height:100%;
+  }
+  
+  .country-select p{
+    margin: 0 1em;
+  }
+  
+  .find--your--country{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100%;
+  }
+  
+  .searching--pseudoclass{
+    display: none;
+  }
+  
+  .countries{
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#232323 ;
+  }
+  
+  .slider--country--selection{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    max-width: 100%;
+    height:100%;
+    box-sizing: border-box;
+    background-color:#232323 ;
+  }
+  
+  .country--name{
+    font-size: 15px;
+  }
+  
+  .btn-icon-arrow{
+    background-image: url('./img/arrow-expand-down.png');
+    width: 12px;
+    height:12px;
+  }
+  
+  .btn-icon-arrow.active{
+    background-image: url('./img/arrow-expand-up.png');
+  }
+  
+  .language-responsive-container{
+    display: none
+  }
+  
+  .language-responsive-container.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .country-responsive-hb{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  
+  .country-responsive-hb.active{
+    display: block;
+    position: fixed;
+    top:10vh;
+    left:0;
+    z-index: 1000;
+  }
+    }
+    
+   @media(min-width: 960px) and (max-width:1279px){
+    .nav--container{
+      justify-content:flex-start;
+      align-items: center;
+      position: relative;
+      background-color: linear-gradient(black, grey) ;
+    }
+  
+    .menu--btn{
+      display: none;
+    }
+  
+    .menu--btn.active{
+      display: flex;
+    }
+  
+    .burger-search{
+      display: flex;
+      position: absolute;
+      right: 5%;
+    }
+  
+    .hamburger--btn{
+      display: flex;
+      position: absolute;
+      right: 0;
+    }
+  
+    .burger-search{
+      display: flex;
+      position: fixed;
+      left: 88%;
+      width: 2em;
+    }
+  
+    .menu--btn{
+      display: none;
+    }
+  
+    .burger-nav{
+      display: none;
+    }
+  
+    .burger-nav-heading{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .burger-exit{
+      display: none;
+    }
+   }
