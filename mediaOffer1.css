@@ -1503,7 +1503,7 @@ body{
 }
  }
 
- @media(max-width:959px /*1279px*/){
+ @media(max-width:959px ){
 
   .menu--btn.active{
     position: fixed;
@@ -1518,6 +1518,7 @@ body{
     background-color: #232323; 
     flex-direction: column;
     padding: 1em;
+    box-sizing: border-box;
     }
 
     .slider-btns{
@@ -1608,19 +1609,16 @@ body{
   .choose--lang-visible{
     display: flex;
     flex-direction: column;
-    /*position: absolute;*/
     height:100%;
     top: 150px;
     left:0;
     right:0;
-    /*transition: height 8s ease-out ;*/
     z-index: 100;
     transform: translate(0%);
     position: fixed;
     left: 0;
     right:0;
     bottom:0;
-    /*transition: 10s ease-in-out;*/
   }
 
   .choose--lang-visible.active{
@@ -1671,7 +1669,6 @@ body{
   margin: 0 auto;
   position: absolute;
   top:30px;
-  /*bottom:0;*/
   height:100%;
   overflow: scroll;
 }
